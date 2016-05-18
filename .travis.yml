@@ -2,4 +2,4 @@ language: c
 compiler:
   - gcc
 
-./configure && make && make test
+script: make dep && make && make test
