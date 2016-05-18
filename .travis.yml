@@ -4,4 +4,4 @@ sudo: required
 compiler:
   - gcc
 
-script: make && make test
+script: make dep && make && make test
